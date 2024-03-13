@@ -3,16 +3,27 @@
 /*fibonacci series*/
 int main()
 {
-    int n1 = 0, n2 = 1, n3, i, number;
-    printf("Enter the number of elements: ");
-    scanf("%d", &number);
-    printf("%d %d ", n1, n2);
-    for (i = 2; i < number; ++i)
+    /*2D array input using pointer*/
+    int a[3][3];
+    for(int i=0;i<3;i++)
     {
-        n3 = n1 + n2;
-        printf("%d ", n3);
-        n1 = n2;
-        n2 = n3;
+        for(int j=0;j<3;j++)
+        {
+            
+            scanf("%d",&*(*(a+i)+j));
+        }
+        printf("\n");
     }
+
+    for(int i=0;i<3;i++)
+    {
+        for(int j=0;j<3;j++)
+        {
+            
+            printf("%d ",*(*(a+i)+j));
+        }
+        printf("\n");
+    }
+    
     return 0;
 }
