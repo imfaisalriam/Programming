@@ -1,0 +1,14 @@
+{
+    "C/C++": {
+      "for loop": {
+        "prefix": "forloop",
+        "body": [
+          "for (int i = 0; i < $1; i++) {",
+          "\t//$2",
+          "}"
+        ],
+        "description": "C++ for loop snippet"
+      }
+    }
+  }
+  
