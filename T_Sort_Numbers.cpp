@@ -3,12 +3,12 @@ using namespace std;
 #define ll long long int
 #define ld long double
 #define endl '\n'
-#define fastios ios::sync_with_stdio(false), cin.tie(NULL)
+//#define fastios ios::sync_with_stdio(false), cin.tie(NULL)
 #define yes cout << "Yes" << endl
 #define no cout << "No" << endl
 int main()
 {
-    fastios;
+    //fastios;
     //ll t;
     // cin >> t;
     // while (t--)
