@@ -1,23 +1,28 @@
 #include <bits/stdc++.h>
-#include <stdio.h>
+using namespace std;
 #define ll long long int
+#define ld long double
+#define endl '\n'
+#define fastios ios::sync_with_stdio(false), cin.tie(NULL)
 #define yes cout << "Yes" << endl
 #define no cout << "No" << endl
-using namespace std;
 int main()
 {
-    int arr[3];
-    for (int i = 0; i < 3; i++)
+    fastios;
+    //ll t;
+    // cin >> t;
+    // while (t--)
+    //{
+    ll n;
+    cin >> n;
+    int arr[n];
+    for (int i = 0; i < n; i++)
     {
-        cin >> arr[i]; 
+        cin >> arr[i];
     }
-    int x=min({arr[0],arr[1],arr[2]});
-    int y=max({arr[0],arr[1],arr[2]});
-    
-    for (int i = 0; i < 3; i++)
+    for (int i = 0; i < n; i++)
     {
-        cout << arr[i] <<endl;
+        cout<<arr[i]<<endl;
     }
-    
-
+    //}
 }

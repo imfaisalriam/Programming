@@ -1,26 +1,29 @@
 {
-	"": {
+	"My custom Template": {
 		"prefix": "boilerplate",
 		"body": [
-			"#include <bits/stdc++.h>",
-			"#include <stdio.h>",
-			"#define ll long long int",
-			"#define yes cout << \"Yes\" << endl",
-			"#define no cout << \"No\" << endl",
-			"using namespace std;",
-			"int main()",
-			"{",
-			"    ll t;",
-			"    cin >> t;",
-			"    while (t--)",
-			"    {",
-			"       $1 ",
-			"    }",
-			"}",
-			""
+		  "#include <bits/stdc++.h>",
+		  "using namespace std;",
+		  "#define ll long long int",
+		  "#define ld long double",
+		  "#define endl '\\n'",
+		  "#define fastios ios::sync_with_stdio(0), cin.tie(0)",
+		  "#define yes cout << \"Yes\" << endl",
+		  "#define no cout << \"No\" << endl",
+		  "int main()",
+		  "{",
+		  "    fastios;",
+		  "    ll t;",
+		  "    cin >> t;",
+		  "    while (t--)",
+		  "    {",
+		  "      $1  ",
+		  "    }",
+		  "}",
+		  ""
 		],
-		"description": ""
-	},
+		"description": "My custom Template"
+	  },
 	"snippet for while loop": {
 		"prefix": "wloop",
 		"body": [
