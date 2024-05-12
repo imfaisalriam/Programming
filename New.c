@@ -1,29 +1,20 @@
-#include <stdio.h>
-
-/*fibonacci series*/
+#include<stdio.h>
 int main()
 {
-    /*2D array input using pointer*/
-    int a[3][3];
-    for(int i=0;i<3;i++)
-    {
-        for(int j=0;j<3;j++)
-        {
-            
-            scanf("%d",&*(*(a+i)+j));
-        }
-        printf("\n");
-    }
+  int a = 10;
+  int* p= &a;
+  (*p+1)=5;
+  int** q= &p;
+  int*** r = &q;
 
-    for(int i=0;i<3;i++)
-    {
-        for(int j=0;j<3;j++)
-        {
-            
-            printf("%d ",*(*(a+i)+j));
-        }
-        printf("\n");
-    }
-    
-    return 0;
+  printf("%d\n",&p);
+  //printf("%d\n",**q);
+  //printf("%d\n", r);
+
+  **q=*p+2;
+  *r=*q+1;
+  //printf("%d\n",p);
+  printf("%d\n",q);
+  printf("%d\n",**q);
+  printf("%d\n",r);
 }

@@ -6,10 +6,15 @@
 using namespace std;
 int main()
 {
-    ll t;
-    cin >> t;
-    while (t--)
+    char n;
+    cin >> n;
+    if (n>='a' && n<='z')
     {
-        
+        cout<<(char)toupper(n)<<endl;
     }
+    else
+    {
+        cout<<(char)tolower(n)<<endl;
+    }
+    
 }

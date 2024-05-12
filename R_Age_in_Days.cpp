@@ -6,10 +6,11 @@
 using namespace std;
 int main()
 {
-    ll t;
-    cin >> t;
-    while (t--)
-    {
-        
-    }
+    int n;
+    cin >> n;
+    int yr=n/365;
+    int mon=(n%365)/30;
+    int day=(n%365)%30;
+    cout<<yr<<" years\n"<<mon<<" months\n"<<day<<" days";
+
 }

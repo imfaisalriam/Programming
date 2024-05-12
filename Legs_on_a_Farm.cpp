@@ -10,6 +10,10 @@ int main()
     cin >> t;
     while (t--)
     {
-        
+        ll n;
+        cin >> n;
+        int c = n / 4;
+        int h = (n % 4) / 2;
+        cout << c + h << endl;
     }
 }

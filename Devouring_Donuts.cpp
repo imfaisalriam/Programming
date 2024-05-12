@@ -6,10 +6,8 @@
 using namespace std;
 int main()
 {
-    ll t;
-    cin >> t;
-    while (t--)
-    {
-        
-    }
+    ll d, n;
+    cin >> d >> n;
+    cout<<d*n<<endl;
+
 }
