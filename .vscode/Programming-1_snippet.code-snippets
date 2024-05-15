@@ -4,16 +4,16 @@
 		"body": [
 		  "#include <bits/stdc++.h>",
 		  "using namespace std;",
-		  "#define ll long long int",
-		  "#define ld long double",
+		  "#define init long long int",
+		  "#define float long double",
 		  "#define endl '\\n'",
-		  "#define fastios ios::sync_with_stdio(0), cin.tie(0)",
+		  "#define fastios ios::sync_with_stdio(false), cin.tie(NULL)",
 		  "#define yes cout << \"Yes\" << endl",
 		  "#define no cout << \"No\" << endl",
 		  "int main()",
 		  "{",
 		  "    fastios;",
-		  "    ll t;",
+		  "    init t;",
 		  "    cin >> t;",
 		  "    while (t--)",
 		  "    {",
@@ -37,12 +37,11 @@
 	"snippet for For loop": {
 		"prefix": "forloop",
 		"body": [
-			"for (int i = 0; i < $1; i++)",
+			"for (init $1 = 0; $1 < $2; $1++)",
 			"{",
-			"    $2",
+			"    $3",
 			"}",
 			"",
-			""
 		],
 		"description": "snippet for For loop"
 	}
