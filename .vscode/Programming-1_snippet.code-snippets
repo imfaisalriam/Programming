@@ -8,8 +8,8 @@
 		  "#define float long double",
 		  "#define endl '\\n'",
 		  "#define fastios ios::sync_with_stdio(false), cin.tie(NULL)",
-		  "#define yes cout << \"Yes\" << endl",
-		  "#define no cout << \"No\" << endl",
+		  "#define yes cout << \"YES\" << endl",
+		  "#define no cout << \"NO\" << endl",
 		  "int main()",
 		  "{",
 		  "    fastios;",
@@ -23,6 +23,26 @@
 		  ""
 		],
 		"description": "My custom Template"
+	  },
+	  "My Template2": {
+		"prefix": "boil2",
+		"body": [
+		  "#include <bits/stdc++.h>",
+		  "using namespace std;",
+		  "#define init long long int",
+		  "#define float long double",
+		  "#define endl '\\n'",
+		  "#define fastios ios::sync_with_stdio(false), cin.tie(NULL)",
+		  "#define yes cout << \"YES\" << endl",
+		  "#define no cout << \"NO\" << endl",
+		  "int main()",
+		  "{",
+		  "    fastios;",
+		  "      $1  ",
+		  "}",
+		  ""
+		],
+		"description": "My Template2"
 	  },
 	"snippet for while loop": {
 		"prefix": "wloop",
